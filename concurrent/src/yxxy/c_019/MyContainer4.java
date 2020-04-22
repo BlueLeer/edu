@@ -26,7 +26,7 @@ import java.util.concurrent.TimeUnit;
 public class MyContainer4 {
 
 	//添加volatile，使t2能够得到通知
-	volatile List lists = new ArrayList();
+	List lists = new ArrayList();
 
 	public void add(Object o) {
 		lists.add(o);
